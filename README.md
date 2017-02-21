@@ -11,31 +11,36 @@ This client is designed for desktop environment KDE Plasma 5 as a widget that is
 ![zavislosti](https://cloud.githubusercontent.com/assets/25787088/23183802/97940a0c-f87d-11e6-9a81-3535de0e78bf.png)
 	
 ### Compile and install
-	1)
-	Install libtwitcurl library
-	See https://curl.haxx.se/libcurl/
-	 OR
-	For example on Ubuntu: "sudo apt-get install libcurl4-openssl-dev"
 
-	2)
-	Install liboauth library
-	See https://github.com/x42/liboauth or https://sourceforge.net/projects/liboauth/
-	 OR
-	For example on Ubuntu: "sudo apt-get install liboauth-dev"
+####1) Install libtwitcurl library
+See https://curl.haxx.se/libcurl/
+OR
+For example on Ubuntu: `sudo apt-get install libcurl4-openssl-dev`
 
-	3)
-	To instal the client you can use "./build.sh" script. Or use CMake tool on your own. Without any option, eventual data in plasmoid location will be deleted, client will be compiled with release flags and installed to use in Plasmawidoved tool.  The script has following options.
-	"-c" - Cleans plasmoid data and build data.
-	"-r" - Installs plasmoid directly in plasma and restarts plasma to changes take effect.
-	"-b" - Builds app only. App is not installed.
-	"-v" - Compiles app with debug flags and runs it in plasmawindowed tool with valgrind tool.
-	"-d" - Compiles with debug flags.
-	"-t" - Prevents compiling Twitcurl lib. (Twitcurl lib is installed as a shared lib, after first run without this option.)
+####2) Install liboauth library
+See https://github.com/x42/liboauth or https://sourceforge.net/projects/liboauth/
+OR
+For example on Ubuntu: `sudo apt-get install liboauth-dev`
+
+####3) Install the client
+To instal the client you can use `./build.sh` script. Or use CMake tool on your own. Without any option, eventual data in plasmoid location will be deleted, client will be compiled with release flags and installed to use in Plasmawidoved tool.  The script has following options.
+
+`-c` - Cleans plasmoid data and build data.
+
+`-r` - Installs plasmoid directly in plasma and restarts plasma to changes take effect.
+
+`-b` - Builds app only. App is not installed.
+
+`-v` - Compiles app with debug flags and runs it in plasmawindowed tool with valgrind tool.
+
+`-d` - Compiles with debug flags.
+
+`-t` - Prevents compiling Twitcurl lib. (Twitcurl lib is installed as a shared lib, after first run without this option.)
 
 ## Libs
-	Client uses folowing libs(that are not my work!):
-	- Twitcurl - https://github.com/swatkat/twitcurl - in folder: "./plugin/Twitter/libtwitcurl/*"
-	- JSonCpp  - https://github.com/open-source-parsers/jsoncpp 
+Client uses folowing libs(that are not my work!):
+- Twitcurl - https://github.com/swatkat/twitcurl - in folder: "./plugin/Twitter/libtwitcurl/*"
+- JSonCpp  - https://github.com/open-source-parsers/jsoncpp 
 
 ## Tested with configuration
 	- Kubuntu 16.04 (64 bit)
