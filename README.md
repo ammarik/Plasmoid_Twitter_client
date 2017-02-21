@@ -43,7 +43,7 @@ To instal the client you can use `./build.sh` script. Or use CMake tool on your 
 
 ## Libs
 Client uses folowing libs(that are not my work!):
-- Twitcurl - https://github.com/swatkat/twitcurl - in folder: "./plugin/Twitter/libtwitcurl/*"
+- Twitcurl - https://github.com/swatkat/twitcurl - in folder: `./plugin/Twitter/libtwitcurl/*`
 - JSonCpp  - https://github.com/open-source-parsers/jsoncpp 
 
 ## Tested with configuration
