@@ -4,7 +4,7 @@ This client is designed for desktop environment KDE Plasma 5 as a widget that is
 
 ## Get and install release
 
-[Get the latest release](https://github.com/ammarik/Plasmoid_Twitter_client/releases/latest), tere is sample `.deb` package for simple instalation on Linux systems derived from Debian. Package was tested on Kubuntu 16.04 64-bit. Install dpkg -i DEB_PACKAGE.
+[Get the latest release](https://github.com/ammarik/Plasmoid_Twitter_client/releases/latest), tere is sample `.deb` package for simple instalation on Linux systems derived from Debian. Package was tested on Kubuntu 16.04 64-bit. Install `dpkg -i DEB_PACKAGE`.
 
 ## Compile and install from source code
 ### Dependencies
