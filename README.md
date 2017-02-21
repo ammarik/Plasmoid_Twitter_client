@@ -22,6 +22,11 @@
 	"-d" - Compiles with debug flags.
 	"-t" - Prevents compiling Twitcurl lib. (Twitcurl lib is installed as a shared lib, after first run without this option.)
 
+## Libs
+	Client uses folowing libs(that are not my work!):
+	- Twitcurl - https://github.com/swatkat/twitcurl - in folder: "./plugin/Twitter/libtwitcurl/*"
+	- JSonCpp  - https://github.com/open-source-parsers/jsoncpp 
+
 ## Tested with configuration
 	- Kubuntu 16.04 (64 bit)
 	- KDE Plasma Version: 5.5.5 
