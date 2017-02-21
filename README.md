@@ -1,4 +1,5 @@
 # Twitter client for KDE Plasma 5
+This client is designed for desktop environment KDE Plasma 5 as a widget that is clipped to the computer desktop. Application directly on the desktop shows the latest notifications and posts from Twitter, allows to post statuses, send or display private messages.
 ![plasmoid1](https://cloud.githubusercontent.com/assets/25787088/23183059/fd65f488-f87a-11e6-8e9a-e7297b43128f.png)
 
 ## Get and install release
