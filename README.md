@@ -1,4 +1,5 @@
 # Twitter client for KDE Plasma 5
+![plasmoid1](https://cloud.githubusercontent.com/assets/25787088/23183059/fd65f488-f87a-11e6-8e9a-e7297b43128f.png)
 
 ## Install
 	1)
