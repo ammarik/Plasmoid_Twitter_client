@@ -14,12 +14,16 @@ This client is designed for desktop environment KDE Plasma 5 as a widget that is
 
 ####1) Install libtwitcurl library
 See https://curl.haxx.se/libcurl/
+
 OR
+
 For example on Ubuntu: `sudo apt-get install libcurl4-openssl-dev`
 
 ####2) Install liboauth library
 See https://github.com/x42/liboauth or https://sourceforge.net/projects/liboauth/
+
 OR
+
 For example on Ubuntu: `sudo apt-get install liboauth-dev`
 
 ####3) Install the client
