@@ -1,7 +1,15 @@
 # Twitter client for KDE Plasma 5
 ![plasmoid1](https://cloud.githubusercontent.com/assets/25787088/23183059/fd65f488-f87a-11e6-8e9a-e7297b43128f.png)
 
-## Install
+## Get and install release
+
+[Get the latest release](https://github.com/ammarik/Plasmoid_Twitter_client/releases/latest), tere is sample `.deb` package for simple instalation on Linux systems derived from Debian. Package was tested on Kubuntu 16.04 64-bit. Install dpkg -i DEB_PACKAGE.
+
+## Compile and install from source code
+### Dependencies
+![zavislosti](https://cloud.githubusercontent.com/assets/25787088/23183802/97940a0c-f87d-11e6-9a81-3535de0e78bf.png)
+	
+### Compile and install
 	1)
 	Install libtwitcurl library
 	See https://curl.haxx.se/libcurl/
