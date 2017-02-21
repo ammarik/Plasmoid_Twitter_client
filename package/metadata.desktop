@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Twitter Plasmoid
+Comment=Plasmoid client for Twitter
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Marik Marek
+X-KDE-PluginInfo-Email=marikma5@fit.cvut.cz
+X-KDE-PluginInfo-License=
+X-KDE-PluginInfo-Name=cz.cvut.fit.twitterPlasmoid
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-NotificationArea=true
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-RemoteLocation=
+#X-Plasma-DefaultSize=250,250
+X-KDE-PluginInfo-Category=Social media
+Icon=/usr/share/plasma/plasmoids/cz.cvut.fit.twitterPlasmoid/contents/images/Twitter_Logo_White_On_Blue.png
+#prefix for Icon is: /usr/share/icons/breeze/actions/toolbar/
+#copy this file into ~/.local/share/kservices5
