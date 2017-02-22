@@ -167,8 +167,8 @@ void Twitter::initConsumerCreds()
     }
     else
     {
-        oAuthConsumerKey = "xWoKi6cbcvmDO5vANSEps4k5q";
-        oAuthConsumerSecret = "byMvrHDibR5SmYFLEvMLOWHx2WbyAocm2TUsngGcCYcHQE3RM7";  
+        oAuthConsumerKey = "";
+        oAuthConsumerSecret = "";  
     }
 }
 
