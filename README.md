@@ -41,6 +41,24 @@ To instal the client you can use `./build.sh` script. Or use CMake tool on your 
 
 `-t` - Prevents compiling Twitcurl lib. (Twitcurl lib is installed as a shared lib, after first run without this option.)
 
+## Getting started
+There are two options:
+### 1) You have installed the deb 
+- Add plasmoid to desktop.
+- Click on the window of the client right mouse button and choose the settings.
+- Click on "Generate PIN" and get pin using a web browser.
+- Insert PIN, click on "Login" and thats it.
+- Close the settings window.
+- (Optionally you can change API credentials... see option 2.)
+
+### 2) You have compiled the client from source code
+- First you have to register the client at https://apps.twitter.com/. 
+- Click on the window of the client right mouse button and choose the settings.
+- Insert Consumer Key(API Key) and Consumer secret(API Secret). Click "Set API credentials"
+- Click on "Generate PIN" and get pin using a web browser.
+- Insert PIN, click on "Login" and thats it.
+- Close the settings window.
+
 ## Libs
 Client uses folowing libs(that are not my work!):
 - Twitcurl - https://github.com/swatkat/twitcurl - in folder: `./plugin/Twitter/libtwitcurl/*`
