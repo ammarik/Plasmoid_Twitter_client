@@ -44,7 +44,7 @@ To instal the client you can use `./build.sh` script. Or use CMake tool on your 
 ## Getting started
 There are two options:
 ### 1) You have installed the .deb package
-- Add plasmoid to desktop.
+- Add client (plasmoid) to desktop.
 - Click on the window of the client right mouse button and choose the settings.
 - Click on "Generate PIN" and get pin using a web browser.
 - Insert PIN, click on "Login" and thats it.
@@ -53,7 +53,7 @@ There are two options:
 
 ### 2) You have compiled the client from source code
 - First you have to register the client at https://apps.twitter.com/. 
-- Add plasmoid to desktop.
+- Add client (plasmoid) to desktop.
 - Click on the window of the client right mouse button and choose the settings.
 - Insert Consumer Key(API Key) and Consumer secret(API Secret). Click "Set API credentials"
 - Click on "Generate PIN" and get pin using a web browser.
